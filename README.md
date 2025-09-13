@@ -32,8 +32,8 @@ Important thing: you cannot directly calculate RDS with this diagram. You need t
 
 *In the case of BF245A:*
 
-**V_p** = -2V
-**I_dss** = 4mA
+- **V_p** = -2V
+- **I_dss** = 4mA
 
 *See it my simulation:*
 
