@@ -30,12 +30,12 @@ Important thing: you cannot directly calculate RDS with this diagram. You need t
 
 <img width="297" height="104" alt="image" src="https://github.com/user-attachments/assets/4e19d81d-b88b-46fe-a5a5-78acc1ad2a9f" />
 
-In the case of BF245A
+*In the case of BF245A:*
 
-V_p = -2V
-I_dss = 4mA
+**V_p** = -2V
+**I_dss** = 4mA
 
-See it my simulation:
+*See it my simulation:*
 
 - The first V_GS value (at the point of 0V control voltage) is ca. -1.2V.
 - I_d (V_GS = -1.2V) = 0.64mA
@@ -51,6 +51,6 @@ At the point of 5V control voltage:
 
 The R_DS (at the point of 5V control voltage) = 0.315V / 0.00475mA =  ~66ohm.
 
-**So, we have a voltage controller resistor between 76ohm and 325ohm.
+**So, we have a voltage controller resistor between 66ohm and 406ohm.**
 
 
