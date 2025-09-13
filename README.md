@@ -26,21 +26,30 @@ In this case the V_DS = 15V and the ambient temperature is 25°C.
 
 Important thing: you cannot directly calculate RDS with this diagram. You need the size of the V_DS signal (The voltage difference between the drain and the source) at the point of V_GS voltage.
 
+**Shockley equation**
+
+<img width="297" height="104" alt="image" src="https://github.com/user-attachments/assets/4e19d81d-b88b-46fe-a5a5-78acc1ad2a9f" />
+
+In the case of BF245A
+
+V_p = -2V
+I_dss = 4mA
+
 See it my simulation:
 
 - The first V_GS value (at the point of 0V control voltage) is ca. -1.2V.
-- Find the drain current on transfer-characteristic at the -1.2V. Approximately: 0.8mA
+- I_d (V_GS = -1.2V) = 0.64mA
 - The first V_DS value (at the point of 0V control voltage) is ca. 260mV.
 
-The R_DS (at the point of 0V control voltage) = 0.26V / 0.0008mA = ~325ohm
+The R_DS (at the point of 0V control voltage) = 0.26V / 0.00064mA = ~406ohm
 
 At the point of 5V control voltage:
 
-- V_GS = 0.1V
-- I_D (V_GS = 0.1V) = ca. 4.1mA
+- V_GS = 0.18V
+- I_D (V_GS = 0.1V) = ca. 4.75mA
 - V_DS = 315mV
 
-The R_DS (at the point of 5V control voltage) = 0.315V / 0.0041mA =  ~76ohm.
+The R_DS (at the point of 5V control voltage) = 0.315V / 0.00475mA =  ~66ohm.
 
 **So, we have a voltage controller resistor between 76ohm and 325ohm.
 
