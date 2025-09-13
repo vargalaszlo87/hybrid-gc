@@ -1,4 +1,4 @@
-# hybrid-agc
+# hybrid-gc
 
 ## 🚀 What about is this project? 
 
