@@ -8,4 +8,8 @@ This is a **gain control** circuit, where you can set the size of control voltag
 
 ## Short description
 
-If you see this circuit for the first time, then seems simple. 
+If you see this circuit for the first time, then seems simple. It includes some transistors, op amps and passive items. Seriously, the main part of this circuit is a common Emitter circuit with variable source resistance.
+
+In this case the channel-resistance of FET (Rds) acts like a voltage controlled resistor. It's well know, the gain of the common-emitter amplifier depends strongly on the emitter resistance.
+
+
